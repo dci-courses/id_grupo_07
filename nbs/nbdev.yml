@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "id_grupo_07"
+  site-url: "https://dci-courses.github.io/id_grupo_07"
+  description: "Repositorio de Ingenieria de Datos - Grupo 07 - Cesar Astudillo, Alfredo Avila"
+  repo-branch: main
+  repo-url: "https://github.com/dci-courses/id_grupo_07"
