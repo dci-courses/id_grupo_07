@@ -3,3 +3,6 @@ website:
     contents:
       - index.ipynb
       - 00_core.ipynb
+      - section: v01
+        contents: []
+        href: v01\index.html
