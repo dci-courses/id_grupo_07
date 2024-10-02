@@ -2,7 +2,7 @@ website:
   sidebar:
     contents:
       - index.ipynb
-      - 00_core.ipynb
+      - 00_core.qmd
       - section: v01
         contents: []
         href: v01\index.html
