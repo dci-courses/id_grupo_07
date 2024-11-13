@@ -74,17 +74,23 @@ async function predict() {
     drawPose(pose);
 }
 
-function drawPose(pose) {
-    if (webcam.canvas) {
-        ctx.drawImage(webcam.canvas, 0, 0);
-        // Dibujar los puntos clave y el esqueleto
-        if (pose) {
-            const minPartConfidence = 0.5;
-            tmPose.drawKeypoints(pose.keypoints, minPartConfidence, ctx);
-            tmPose.drawSkeleton(pose.keypoints, minPartConfidence, ctx);
-        }
+function drawPose(pose, bestLabel) {
+    ctx.drawImage(webcam.canvas, 0, 0);
+
+    // Dibujar los keypoints y el esqueleto
+    if (pose) {
+        const minPartConfidence = 0.5;
+        tmPose.drawKeypoints(pose.keypoints, minPartConfidence, ctx);
+        tmPose.drawSkeleton(pose.keypoints, minPartConfidence, ctx);
+
+        // Mostrar el resultado (Buena Postura / Mala Postura) en el canvas
+        ctx.font = "20px Arial"; // Ajusté el tamaño del texto
+        ctx.fillStyle = "white";
+        ctx.textAlign = "center";
+        ctx.fillText(bestLabel, canvas.width / 2, canvas.height - 20); // Ajustado para que el texto aparezca en la parte inferior
     }
 }
+
 
 </script>
 <body>
