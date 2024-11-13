@@ -21,7 +21,7 @@ Sample text
 </head>
 <script>
 // El enlace a tu modelo proporcionado por el panel de exportación de Teachable Machine
-const URL = "https://teachablemachine.withgoogle.com/models/lqYKlVl6-/";
+const URL = "https://teachablemachine.withgoogle.com/models/l2FA9juhi/";
 let model, webcam, ctx, labelContainer, maxPredictions;
 
 async function init() {
@@ -42,8 +42,8 @@ async function init() {
 
     // Obtener elementos del DOM
     const canvas = document.getElementById("canvas");
-    canvas.width = size;
-    canvas.height = size;
+    canvas.width = 265;
+    canvas.height = 265;
     ctx = canvas.getContext("2d");
     labelContainer = document.getElementById("label-container");
     for (let i = 0; i < maxPredictions; i++) { // Y etiquetas de clase
