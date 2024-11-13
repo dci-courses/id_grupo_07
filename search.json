@@ -1,0 +1,42 @@
+[
+  {
+    "objectID": "00_core.html",
+    "href": "00_core.html",
+    "title": "Demo",
+    "section": "",
+    "text": "Demo\nSample text\n\n\n\n    \n    \n    Teachable Machine Pose Model\n\n\n\n\n    Teachable Machine Pose Model\n    Start",
+    "crumbs": [
+      "Demo"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "PosturApp",
+    "section": "",
+    "text": "La mala postura en entornos laborales es un problema común que afecta a millones de trabajadores, especialmente aquellos que pasan largas horas sentados frente a computadores, o aquellos realizando tareas repetitivas.\nEsta mala postura al sentarse puede generar problemas de salud a largo plazo, como dolor de espalda, cuello, hombros, trastornos musculoesqueléticos y fatiga, lo que influye en la productividad y el bienestar general de los empleados.",
+    "crumbs": [
+      "PosturApp"
+    ]
+  },
+  {
+    "objectID": "index.html#problema",
+    "href": "index.html#problema",
+    "title": "PosturApp",
+    "section": "",
+    "text": "La mala postura en entornos laborales es un problema común que afecta a millones de trabajadores, especialmente aquellos que pasan largas horas sentados frente a computadores, o aquellos realizando tareas repetitivas.\nEsta mala postura al sentarse puede generar problemas de salud a largo plazo, como dolor de espalda, cuello, hombros, trastornos musculoesqueléticos y fatiga, lo que influye en la productividad y el bienestar general de los empleados.",
+    "crumbs": [
+      "PosturApp"
+    ]
+  },
+  {
+    "objectID": "index.html#solución",
+    "href": "index.html#solución",
+    "title": "PosturApp",
+    "section": "Solución",
+    "text": "Solución\n\n\n\nAfiche de proyecto\n\n\nEl proyecto PosturApp consiste en un sistema que, a través de una webcam, detecta la mala postura del usuario, y envía una alerta al usuario para recordarle mejorar su postura.\n\nFuncionamiento\nEl software escanea constantemente la imagen obtenida por la cámara, utilizando el modelo entrenado con las imágenes de posturas para identificar si la postura del sujeto presente en la imagen tiene o no buena postura.\nSi la postura es reconocida como buena, el software sólo continúa analizando la imagen.\nSi la postura es identificada como mala, se envía una alerta al usuario para corregir.",
+    "crumbs": [
+      "PosturApp"
+    ]
+  }
+]
