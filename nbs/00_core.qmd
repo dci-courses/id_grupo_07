@@ -21,7 +21,7 @@ Sample text
 </head>
 <script>
 // El enlace a tu modelo proporcionado por el panel de exportación de Teachable Machine
-const URL = "https://teachablemachine.withgoogle.com/models/l2FA9juhi/";
+const URL = "https://teachablemachine.withgoogle.com/models/B223ospmn/";
 let model, webcam, ctx, labelContainer, maxPredictions;
 
 async function init() {
